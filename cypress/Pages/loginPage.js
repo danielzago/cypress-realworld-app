@@ -8,6 +8,7 @@ class LoginPage{
         messageError:  '.MuiAlert-message',
         passWordRequiered: '.oxd-input-group > .oxd-text',
         userNameRequiered: '#username-helper-text',
+        confirmationLogin: '[data-test="main"]',
         }
         return Selectors
     }
@@ -24,6 +25,10 @@ class LoginPage{
 
     checkAcessInvalid(){    
         cy.get(this.SelectorList().userError).should('be.visible')
+    }
+
+    validLogin(){
+        cy.get(this.SelectorList().confirmationLogin).should('be.visible')
     }
 }
 

@@ -591,6 +591,39 @@
       "balance": 0,
       "createdAt": "2025-03-11T17:40:45.091Z",
       "modifiedAt": "2025-03-11T17:40:45.091Z"
+    },
+    {
+      "id": "9OcJ3S2zQ",
+      "uuid": "c1b3a477-e50e-44ad-920c-60852fd60dea",
+      "firstName": "Jorginho007",
+      "lastName": "bob",
+      "username": "jorgedobob",
+      "password": "$2a$10$V2zxpka00cALyQN41Qf93OGp.JxSxr3NzRHRnuMpMs0wmwnLGxqcW",
+      "balance": 0,
+      "createdAt": "2025-03-11T17:57:45.136Z",
+      "modifiedAt": "2025-03-11T17:57:45.136Z"
+    },
+    {
+      "id": "DDZRlJlql",
+      "uuid": "7ec5e2d9-e732-4f7a-80f1-ddb7b2f51c80",
+      "firstName": "Jorginho007",
+      "lastName": "bob",
+      "username": "jorgedobosb",
+      "password": "$2a$10$FwjOtiGW6jWp0aSc8k88K.AuMm0ugT.3Aq.b2PZfNupZhe6FOiX.2",
+      "balance": 0,
+      "createdAt": "2025-03-11T17:59:08.338Z",
+      "modifiedAt": "2025-03-11T17:59:08.338Z"
+    },
+    {
+      "id": "biFfKIVea",
+      "uuid": "fa8b2494-f3a2-466f-898c-edf85ff732d5",
+      "firstName": "Jorginho007",
+      "lastName": "bob",
+      "username": "jorgedobosdb",
+      "password": "$2a$10$PvMzudSaJ93R5mO6L3EjyOUGCppQuhWAHmNdEk.2Q17TX6uEDH46a",
+      "balance": 0,
+      "createdAt": "2025-03-11T18:08:25.790Z",
+      "modifiedAt": "2025-03-11T18:08:25.790Z"
     }
   ],
   "contacts": [
@@ -825,6 +858,28 @@
       "isDeleted": false,
       "createdAt": "2025-03-11T17:38:31.582Z",
       "modifiedAt": "2025-03-11T17:38:31.582Z"
+    },
+    {
+      "id": "Bxj5Q8e1_",
+      "uuid": "849739dc-3a43-4221-a145-9320e7629b1b",
+      "userId": "DDZRlJlql",
+      "bankName": "bradesco",
+      "accountNumber": "123456445",
+      "routingNumber": "123456445",
+      "isDeleted": false,
+      "createdAt": "2025-03-11T17:59:10.805Z",
+      "modifiedAt": "2025-03-11T17:59:10.805Z"
+    },
+    {
+      "id": "ryRUGt6cO",
+      "uuid": "a7db5b81-3739-4d25-aa5a-54472703815e",
+      "userId": "biFfKIVea",
+      "bankName": "bradesco",
+      "accountNumber": "123456445",
+      "routingNumber": "123456445",
+      "isDeleted": false,
+      "createdAt": "2025-03-11T18:08:27.868Z",
+      "modifiedAt": "2025-03-11T18:08:27.868Z"
     }
   ],
   "transactions": [

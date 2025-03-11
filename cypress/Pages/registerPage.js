@@ -15,6 +15,7 @@ class registerPage{
         bankaccountNumber: '#bankaccount-accountNumber-input',
         bankaccountSubmit: '[data-test="bankaccount-submit"]',
         nextGeneric: '[data-test="user-onboarding-next"]',
+        confirmationLogin: '[data-test="main"]',
 
 
         }
@@ -60,6 +61,10 @@ class registerPage{
         cy.get(this.SelectorList().bankaccountNumber).type(numberccount)
         cy.get(this.SelectorList().bankaccountSubmit).click()
         cy.get(this.SelectorList().nextGeneric).click()
+    }
+
+    validLogin(){
+        cy.get(this.SelectorList().confirmationLogin).should('be.visible')
     }
 }
 
