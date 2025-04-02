@@ -16,10 +16,11 @@ describe('Registro de novo usuário com sucesso', () => {
     registerPages.validLogin()
   });
 });
-
+/*
 describe('Tentar registrar um novo usuário com informações incompletas', () => {
   it.skip('Deve exibir mensagens de erro ao tentar registrar um novo usuário sem preencher todas as informações obrigatórias', () => {
     registerPages.acessRegisterPage()
     registerPages.registerNewUserBlanck('meia noite', 'duas noite', '123456aas')
   });//OBS: como o site empede de registrar faltando um campo o teste falha na hora do submit.
 });
+*/
